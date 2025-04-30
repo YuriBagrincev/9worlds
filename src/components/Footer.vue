@@ -12,7 +12,7 @@
         <ul class="list-reset flex">
           <li>
             <a
-              href="https://t.me/@Yurec_721"
+              href="https://t.me/NineWorldsWay"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Перейти в Telegram"
@@ -27,7 +27,7 @@
           </li>
           <li>
             <a
-              href="https://vk.com/id542830907"
+              href="https://vk.com/id1045303225"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Перейти в ВКонтакте"
