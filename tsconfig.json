@@ -1,0 +1,9 @@
+{
+  // Файл-«входная точка» для TypeScript с использованием Project References.
+  // В нём мы не храним compilerOptions напрямую, а отдаем их в tsconfig.app.json и tsconfig.node.json.
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

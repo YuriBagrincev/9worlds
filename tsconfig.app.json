@@ -1,0 +1,28 @@
+{
+  // Расширяем настройки Vue + DOM
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+
+  "compilerOptions": {
+    // Указываем точку отсчёта для пути
+    "baseUrl": ".",
+    // Описываем псевдоним `@`, чтобы указывать на папку src
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    // Подключаем декларации Vite
+    "types": ["vite/client"],
+
+    // Существующие настройки:
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+
+  // Включаем все .ts, .tsx, .vue из src
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+}
