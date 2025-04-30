@@ -3,16 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
+
   "homepage": "https://yuribagrincev.github.io/9worlds/",
 
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview",
-    
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
 
   "dependencies": {
@@ -26,8 +23,6 @@
     "@vue/tsconfig": "^0.7.0",
     "typescript": "~5.7.2",
     "vite": "^6.2.0",
-    "vue-tsc": "^2.2.4",
-    
-    "gh-pages": "^6.0.0"
+    "vue-tsc": "^2.2.4"
   }
 }
