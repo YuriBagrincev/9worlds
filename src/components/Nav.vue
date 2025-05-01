@@ -82,8 +82,8 @@ export default defineComponent({
   padding: 15px 0;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;     /* Firefox */
-  -ms-overflow-style: none;  /* IE10+ */
+  scrollbar-width: none;     
+  -ms-overflow-style: none;  
 }
 .header__nav::-webkit-scrollbar {
   display: none;

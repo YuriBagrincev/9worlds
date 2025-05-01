@@ -724,7 +724,7 @@ export default defineComponent({
     padding: 15px;
   }
   .world-image img {
-    max-height: 200px;
+    max-height: 100%;
   }
   .world-description {
     font-size: calc(var(--world-font-size) * 0.8);
@@ -741,13 +741,16 @@ export default defineComponent({
     padding: 10px;
   }
   .world-image img {
-    max-height: 120px;
+    /* max-height: 120px; */
   }
   .world-description {
     font-size: calc(var(--world-font-size) * 0.7);
   }
   .world-description h2 {
     font-size: 20px;
+  }
+  .world-content {
+    display: block;
   }
 }
 

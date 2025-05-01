@@ -1,23 +1,14 @@
 <template>
-  <header
-    class="header"
-    itemscope
-    itemtype="https://schema.org/WPHeader"
-  >
-    <!-- Skip-link для улучшенной доступности -->
+  <header class="header" itemscope itemtype="https://schema.org/WPHeader">
     <a href="#main-content" class="skip-link">Перейти к содержимому</a>
 
     <div class="container header__container">
-      <!-- Логотип + название сайта -->
       <div
         class="logo-box"
         itemscope
         itemtype="https://schema.org/Organization"
       >
-        <a
-          href="/"
-          aria-label="Перейти на главную"
-        >
+        <a href="/" aria-label="Перейти на главную">
           <img
             src="/img/favicon.png"
             alt="Логотип Путь 9 Миров"
@@ -25,12 +16,7 @@
             itemprop="logo"
             loading="eager"
           />
-          <h1
-            class="site-title"
-            itemprop="name"
-          >
-            Путь 9 Миров
-          </h1>
+          <h1 class="site-title" itemprop="name">Путь 9 Миров</h1>
         </a>
       </div>
     </div>
@@ -63,7 +49,6 @@ export default defineComponent({
   gap: 20px;
 }
 
-/* Ссылка-обёртка для логотипа и заголовка */
 .logo-box > a {
   display: flex;
   align-items: center;
