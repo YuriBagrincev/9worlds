@@ -155,7 +155,7 @@ export default defineComponent({
 Асгард — неотъемлемая часть скандинавской космологии и ключевое понятие в изучении северной мифологии. 
 Это место, где величие и миф соединяются, создавая образ вечного <strong>мира богов</strong>.
 </p>`,
-        image: "./img/Asgard.jpg",
+        image: "./img/Asgard.webp",
         uniqueId: 0,
       },
       {
@@ -187,7 +187,7 @@ export default defineComponent({
 способной вдохновлять сердца смертных и бессмертных.
 </p>
 `,
-        image: "./img/Alfheim.jpg",
+        image: "./img/Alfheim.webp",
         uniqueId: 0,
       },
       {
@@ -215,7 +215,7 @@ export default defineComponent({
 олицетворяя изобилие, чувственность и тайное знание. Это мир, где природа и божественное соединяются в едином дыхании бытия.
 </p>
 `,
-        image: "./img/Vanaheim.jpg",
+        image: "./img/Vanaheim.webp",
         uniqueId: 0,
       },
       {
@@ -246,7 +246,7 @@ export default defineComponent({
 <strong>Огненные великаны</strong> и <strong>Сурт</strong> — символы могущества, страсти и неминуемого конца, который всегда предшествует новому началу.
 </p>
 `,
-        image: "./img/Muspelheim.jpg",
+        image: "./img/Muspelheim.webp",
         uniqueId: 0,
       },
       {
@@ -278,7 +278,7 @@ export default defineComponent({
 ведь именно через людей и их поступки определяется будущее мирового порядка.
 </p>
 `,
-        image: "./img/Midgard.jpg",
+        image: "./img/Midgard.webp",
         uniqueId: 0,
       },
       {
@@ -309,7 +309,7 @@ export default defineComponent({
 которые двигают мифологическую историю вперёд, раскрывая глубину борьбы между хаосом и порядком.
 </p>
 `,
-        image: "./img/Jotunheim.jpg",
+        image: "./img/Jotunheim.webp",
         uniqueId: 0,
       },
       {
@@ -340,7 +340,7 @@ export default defineComponent({
 что делают их неотъемлемой частью мифологической вселенной.
 </p>
 `,
-        image: "./img/Swartalheim.jpg",
+        image: "./img/Swartalheim.webp",
         uniqueId: 0,
       },
       {
@@ -371,7 +371,7 @@ export default defineComponent({
 <strong>Богиня Хель</strong> и <strong>великанша Модгуд</strong> охраняют врата последнего перехода, храня тайны, которые ведомы лишь мёртвым.
 </p>
 `,
-        image: "./img/Hel.jpg",
+        image: "./img/Hel.webp",
         uniqueId: 0,
       },
       {
@@ -402,7 +402,7 @@ export default defineComponent({
 то <strong>Нифельхейм</strong> — это ключ к пониманию тьмы, из которой рождается свет. Здесь начинается круг жизни и здесь же он может оборваться.
 </p>
 `,
-        image: "./img/Nifelheim.jpg",
+        image: "./img/Nifelheim.webp",
         uniqueId: 0,
       },
     ];
