@@ -105,6 +105,7 @@
       </div>
 
       <div class="norn-description">
+        <p>{{ selectedRune.name }}</p>
         <p>{{ selectedRune.description }}</p>
       </div>
     </section>
@@ -569,7 +570,7 @@ export default defineComponent({
 
     // состояние секции Норн
     const selectedRune = ref<Rune>({
-      name: "Рубашка",
+      name: " ",
       image: "./img/runes/rune.jpg",
       description: "брось палочку",
     });
@@ -700,6 +701,8 @@ export default defineComponent({
   margin: 0 auto;
   line-height: 1.4;
   font-size: 16px;
+  font-family: sans-serif;
+  font-style: italic;
 }
 
 /* keyframes pulse */
